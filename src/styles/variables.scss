@@ -1,29 +1,18 @@
 $main-grad-color: linear-gradient(to right, hsl(246, 57%, 66%), hsl(235, 76%, 29%));
 $flame-grad-color: linear-gradient(to right, hsl(52, 100%, 72%), hsl(341, 87%, 54%));
 $orange-grad-color: linear-gradient(to right, hsl(353, 83%, 62%), hsl(28, 100%, 82%));
-$love-grad-color: linear-gradient(to right, hsl(52, 100%, 72%), hsl(341, 87%, 54%));
 $ocean-grad-color: linear-gradient(to right, hsl(241, 40%, 37%), hsl(210, 100%, 60%));
 $sea-grad-color: linear-gradient(to right, hsl(246, 84%, 64%), hsl(188, 87%, 70%));
 
 $color-primary: hsl(0, 0%, 6%);
-$color-secondary: linear-gradient(to right, hsl(241, 40%, 37%), hsl(210, 100%, 60%));
-$color-contrast: hsl(3, 88%, 68%);
-$color-contrast-2: hsl(14, 90%, 67%);
+$color-secondary: $ocean-grad-color;
+$color-contrast: $orange-grad-color;
+$color-contrast-2: hsl(353, 83%, 62%);
 $color-text: #ffffff;
-
-$color-primary-darker : darken($color-primary, 10%);
-$color-primary-lighter : lighten($color-primary, 10%);
-
-$color-contrast-darker : darken($color-contrast, 10%);
-$color-contrast-lighter : lighten($color-contrast, 5%);
-
-$color-contrast-grad: linear-gradient(45deg, $color-contrast, $color-contrast-2);
-$color-contrast-grad-trl: linear-gradient(45deg, rgba($color-contrast, 0.85), $color-contrast-2);
-
 
 $main-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 $main-shadow-darker: rgba(0, 0, 0, 1) 0px 3px 8px;
-$contrast-shadow: rgba($color-contrast, 1) 0px 3px 8px;
+$contrast-shadow: $color-contrast 0px 3px 8px;
 $soft-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 $white-shadow: rgba(255, 255, 255, 0.56) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
